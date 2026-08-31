@@ -39,11 +39,9 @@ app.add_middleware(
 #   3. HuggingFace download (first-time setup)
 import os
 
-# MODEL_NAME         = "all-MiniLM-L6-v2"
-# LOCAL_MODEL_PATH   = "./models/all-MiniLM-L6-v2"
-# FINETUNED_MODEL_PATH = "./models/fine-tuned-cv-model"
-MODEL_NAME = "all-MiniLM-L6-v2"
-LOCAL_MODEL_PATH = "./models/all-MiniLM-L6-v2"
+MODEL_NAME           = "all-MiniLM-L6-v2"
+LOCAL_MODEL_PATH     = "./models/all-MiniLM-L6-v2"
+FINETUNED_MODEL_PATH = "./models/fine-tuned-cv-model"
 
 # Increase timeout for slow connections
 os.environ['HF_HUB_DOWNLOAD_TIMEOUT'] = '120'
