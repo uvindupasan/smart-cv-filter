@@ -1,0 +1,22 @@
+query,SBERT_P10,SBERT_R10,SBERT_F1,SBERT_AP,SBERT_Time_ms,TFIDF_P10,TFIDF_R10,TFIDF_F1,TFIDF_AP,TFIDF_Time_ms
+Python developer,0.6,1.0,0.75,1.0,21.28,0.6,1.0,0.75,1.0,1.0
+React frontend developer,0.3,1.0,0.4615,1.0,24.69,0.3,1.0,0.4615,1.0,2.51
+machine learning engineer,0.4,1.0,0.5714,1.0,25.17,0.4,1.0,0.5714,0.875,2.01
+English fluent,1.0,0.5,0.6667,0.5,23.61,1.0,0.5,0.6667,0.5,2.53
+Japanese language,0.1,0.5,0.1667,0.5,21.15,0.2,1.0,0.3333,1.0,1.0
+French language,0.1,1.0,0.1818,1.0,25.71,0.1,1.0,0.1818,1.0,1.6
+customer service communication,0.3,1.0,0.4615,0.8095,21.62,0.3,1.0,0.4615,0.9167,3.01
+project management agile,0.1,1.0,0.1818,1.0,22.51,0.1,1.0,0.1818,1.0,2.01
+backend developer API,0.3,1.0,0.4615,0.6667,21.45,0.3,1.0,0.4615,1.0,3.0
+data science statistics,0.5,1.0,0.6667,0.9429,23.36,0.4,0.8,0.5333,0.6889,1.99
+DevOps cloud infrastructure,0.1,1.0,0.1818,1.0,25.49,0.1,1.0,0.1818,1.0,2.0
+mobile app developer,0.1,1.0,0.1818,1.0,23.16,0.1,1.0,0.1818,1.0,1.0
+HR human resources recruitment,0.1,1.0,0.1818,1.0,24.02,0.1,1.0,0.1818,1.0,2.0
+digital marketing content writing,0.1,1.0,0.1818,1.0,21.84,0.1,1.0,0.1818,1.0,2.01
+Sinhala Tamil multilingual,0.3,1.0,0.4615,0.8333,21.74,0.3,1.0,0.4615,0.9167,3.0
+database SQL administrator,0.2,1.0,0.3333,1.0,22.52,0.2,1.0,0.3333,0.75,2.98
+natural language processing NLP,0.1,1.0,0.1818,1.0,21.69,0.1,1.0,0.1818,1.0,2.0
+accounting finance,0.1,1.0,0.1818,1.0,20.49,0.1,1.0,0.1818,1.0,2.0
+Docker Kubernetes containerization,0.1,1.0,0.1818,1.0,23.62,0.1,1.0,0.1818,1.0,2.02
+software engineer full stack,0.5,1.0,0.6667,0.7433,21.48,0.3,0.6,0.4,0.55,2.0
+AVERAGE,0.27,0.95,0.3652,0.8998,22.83,0.26,0.945,0.3535,0.9099,2.08

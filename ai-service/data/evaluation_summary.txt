@@ -1,0 +1,16 @@
+Smart CV Filter - AI Search Evaluation Summary
+KIU Research Project | H A U P Kumarsinghe | 11174
+============================================================
+
+Number of Queries   : 20
+Number of CVs       : 20
+Model               : Sentence-BERT (all-MiniLM-L6-v2)
+Baseline            : TF-IDF cosine similarity
+
+Metric                  SBERT   TF-IDF  Improvement
+--------------------------------------------------
+Precision@10           0.2700   0.2600        +3.8%
+Recall@10              0.9500   0.9450        +0.5%
+F1 Score               0.3652   0.3535        +3.3%
+MAP                    0.8998   0.9099       +-1.1%
+Avg Search (ms)       22.8300   2.0835      +995.8%
