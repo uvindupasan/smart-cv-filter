@@ -34,8 +34,9 @@ router.post('/login', async (req, res) => {
       });
     }
 
-    // Sanitize email
-    email = email.toLowerCase().trim();
+    // Sanitize email and password
+    email = (email || '').toLowerCase().trim();
+    password = (password || '').trim();
 
     // Find user and include password for comparison
     const user = await User.findOne({ email }).select('+password');

@@ -19,7 +19,10 @@ export default function Login() {
     setError("");
 
     try {
-      const res = await login(form);
+      const res = await login({
+        email: form.email ? form.email.trim() : "",
+        password: form.password ? form.password.trim() : ""
+      });
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));
       navigate("/");
